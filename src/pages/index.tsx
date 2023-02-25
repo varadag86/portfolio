@@ -1,7 +1,7 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
 import Layout from "../layout/layout.component"
-import PORTFOLIO_IMG from '../assets/portfolio.png';
+import PORTFOLIO_IMG from '../assets/portfolio.jpeg';
 import LINKEDIN from '../assets/linkedin-in.svg';
 import INSTA from '../assets/instagram.svg';
 import STACK from '../assets/stack-overflow.svg';
@@ -33,7 +33,9 @@ const IndexPage: React.FC<PageProps> = () => {
                   </div>
                 </div>
                 <div className="column">
-                  <img src={PORTFOLIO_IMG} className='is-pulled-right' />
+                  <div className="image is-128x128">
+                    <img src={PORTFOLIO_IMG} className='is-rounded is-pulled-right' />
+                  </div>
                 </div>
               </div>
             </div>

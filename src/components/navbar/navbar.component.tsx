@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import React, { useState } from "react";
 
 
@@ -33,8 +34,9 @@ const Navbar: React.FC = () => {
                     className={`navbar-menu ${isActive ? "is-active" : ""}`}
                 >
                     <div className="navbar-end">
-                        <a className="navbar-item">Home</a>
-                        <a className="navbar-item">About</a>
+                        <Link to="/" className="navbar-item">Home</Link>
+                        <Link to="/blogs" className="navbar-item">Blogs</Link>
+                        <Link to="/about" className="navbar-item">About</Link>
                     </div>
                 </div>
             </nav>
