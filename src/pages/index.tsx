@@ -31,7 +31,7 @@ const IndexPage: React.FC<PageProps> = () => {
       >
         <div className="navbar-start">
           <a className="navbar-item">Home</a>
-          <a className="navbar-item">Documentation</a>
+          <a className="navbar-item">About</a>
         </div>
       </div>
     </nav>
