@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
                 className={`navbar-menu ${isActive ? "is-active" : ""}`}
             >
                 <div className="navbar-start">
-                    <a className="navbar-item">Home</a>
+                    <a className="navbar-item">VaradRocks</a>
                     <a className="navbar-item">About</a>
                 </div>
             </div>
