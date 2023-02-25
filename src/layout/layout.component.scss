@@ -3,4 +3,11 @@
 // If need, change your variables before importing Bulma
 // $title-color: #ff0000;
 
+$rhythm: 8px;
+
 @import "~bulma/bulma.sass";
+@import '~bulma-extensions/bulma-tooltip/src/sass/index.sass';
+
+.user__info {
+    margin-top: 15 * $rhythm;
+}
